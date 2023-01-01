@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+#div{
+    height: 200px;
+    width:200px;
+    border: teal;
+    border-radius:50%;
+    position: relative;
+    animation-name:swat;
+    transition:3s;
+    animation: swat 5s infinite;
+
+}
+@keyframes swat{
+    0%{background-color: goldenrod; left:0px; top: 0px;}
+    25%{background:green;left: 50%;top:0px}
+    50%{background: red;left: 80px;top: 100px;}
+    75%{background:yellowgreen;left:0px;top:0px;}
+}
+#div2{
+    height: 200px;
+    width:200px;
+    border:teal 23px ridge; 
+    border-radius: 50%;
+    position:relative;
+    animation-name: swa;
+    transition: 3s;
+    animation:swa 5s infinite;
+}
+@keyframes swa{
+    0%{background-color: pink;left: 0px;top: 0px;}
+    25%{background: blue; left: 50%;top: 0px;}
+    50%{background:yellow;left: 500px;top: 500px;}
+    75%{background:green;left:0px;top: 0px;}
+}
