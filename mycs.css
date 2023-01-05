@@ -2,69 +2,40 @@
     box-sizing: border-box;
 }
 body{
-    background-color:black;
+    background-color: gray;
 }
-#div{
-    height: 200px;
-    width:200px;
-    border: teal ridge 15px;
-    border-radius:50%;
-    position: relative;
-    animation-name:swat;
-    transition:3s;
-    animation: swat 2s infinite;
+#result{
+    width: 338px;
+    height: 150px;
+    font-size: 20px;
+    text-align: bottom;
+    position: absolute;
+    top: 50px;
+    border-top-width: 3px;
+    border-right-width: 1px;
+    border-right-color: red;
+    border-left-width: 1px;
 
 }
-@keyframes swat{
-    0%{background-color: goldenrod; left:0px; top: 0px;}
-    25%{background:green;left: 50%;top:0px}
-    50%{background: red;left: 80px;top: 100px;}
-    75%{background:yellowgreen;left:0px;top:0px;}
+#cancel{
+    width: 85.5px;
+    height: 75px;
+    font-size: 20px;
+    position: absolute;
+    top: 206px;
 }
-#div2{
-    height: 200px;
-    width:200px;
-    border:teal 23px ridge; 
-    border-radius: 50%;
-    position:relative;
-    animation-name: swa;
-    transition: 3s;
-    animation:swa 2s infinite;
+#percentage{
+    width: 85.5px;
+    height: 75px;
+    font-size: 20px;
+    position: absolute;
+    top: 206px;
+    left: 92px;
 }
-@keyframes swa{
-    0%{background-color: pink;left: 0px;top: 0px;}
-    25%{background: blue; left: 50%;top: 0px;}
-    50%{background:yellow;left: 300px;top: 500px;}
-    75%{background:green;left:0px;top: 0px;}
+#delete{
+    width: 85.5px;
+    height: ;
 }
-#div3{
-    height: 200px;
-    width: 200px;
-    border: rgb(100, 74, 74) 20px ridge;
-    border-radius: 50%;
-    position: relative;
-    animation-name: greeen;
-    transition: 3s;
-    animation:greeen 2s infinite ;
-}
-@keyframes greeen{
-    0%{background-color: orange;left: 0px;top: 0px;}
-    25%{background: blue;left:55%;top: 0px;}
-    50%{background: rgb(0, 147, 205);left: 50%; top: 40px;}
-    75%{background: pink; left: 300%;top: 0px;}
-    100%{background: rgb(255, 0, 43); left: 200%;top: 30px;}
-}
-.btn{
-    color: red;
-    border: 10px green ridge;
-    border-radius: 30%;
-    font-size: 13px;
-    position:relative;
-    top:160px;
-}
-.cana{
-    height: 200px;
-    width: 500px;
-    border: white ;
-    background-color: white;
-}
+#div{}
+#seven{}
+#eight{}
